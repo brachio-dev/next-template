@@ -1,8 +1,8 @@
-import { FC } from "react";
+import { FC } from 'react'
 
 type SampleProps = {
-  name: string;
-};
+  name: string
+}
 export const Sample: FC = ({ user }) => {
-  return <div>{user.name}</div>;
-};
+  return <div>{user.name}</div>
+}
