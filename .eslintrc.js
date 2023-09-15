@@ -7,6 +7,7 @@ module.exports = {
     'prettier'
   ],
   plugins: ['unused-imports'],
+  parser: '@typescript-eslint/parser',
   parserOptions: {
     project: './tsconfig.json'
   },
@@ -34,5 +35,16 @@ module.exports = {
         }
       }
     ]
-  }
+  },
+  ignorePatterns: [
+    'node_modules',
+    '.next',
+    'out',
+    'public',
+    '.prettierrc.js',
+    '.eslintrc.js',
+    'tailwind.config.js',
+    'next.config.js',
+    'postcss.config.js'
+  ]
 }
