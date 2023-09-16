@@ -35,16 +35,5 @@ module.exports = {
         }
       }
     ]
-  },
-  ignorePatterns: [
-    'node_modules',
-    '.next',
-    'out',
-    'public',
-    '.prettierrc.js',
-    '.eslintrc.js',
-    'tailwind.config.js',
-    'next.config.js',
-    'postcss.config.js'
-  ]
+  }
 }
